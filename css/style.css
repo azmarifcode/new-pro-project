@@ -11,6 +11,7 @@ span{
 }
 section{
     display: flex;
+    margin-bottom: 100px;
 }
 .half-width{
     width: 50%;
@@ -24,9 +25,14 @@ section{
     background-image: linear-gradient(orange, tomato);
     padding: 10px 40px;
     border-radius: 5px;
+    color: white;
 }
 .top-banner{
     background-image: url("../pictures/top-banner.png");
     background-repeat: no-repeat;
-
+}
+.big-area{
+    background-image: url("../pictures/dream-bg.png");
+    background-repeat: no-repeat;
+    background-position: right;
 }
