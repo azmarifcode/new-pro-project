@@ -39,16 +39,32 @@ span{
     background-repeat: no-repeat;
     background-position: right;
 }
+.experiences-area{
+    background-image: url(../pictures/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
 .experiences-item{
     width: 40%;
     margin-left: 5%;
     margin-right: 5%;
     padding: 20px;
     box-shadow: 10px 10px 40px black;
-    border-radius: 5%;
+    border-radius: 10px;
 }
-.experiences-area{
-    background-image: url(../pictures/exp-bg.png);
-    background-repeat: no-repeat;
-    background-position: left;
+#stack-developer{
+    border-image: linear-gradient(green, red);
+    border-left: 10px solid;
+    border-image-slice: 1;
+}
+#baby-developer{
+    border-image: linear-gradient(blue, cyan);
+    border-left: 10px solid;
+    border-image-slice: 1;
+}
+.experiences{
+    text-align: center;
+}
+footer p{
+    text-align: center;
 }
