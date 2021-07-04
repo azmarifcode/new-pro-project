@@ -6,10 +6,13 @@ body{
 h1{
     font-size: 50px;
 }
+h2{
+    font-size: 30px;
+}
 span{
     color: orange;
 }
-section{
+.flexible-container{
     display: flex;
     margin-bottom: 100px;
 }
@@ -28,11 +31,24 @@ section{
     color: white;
 }
 .top-banner{
-    background-image: url("../pictures/top-banner.png");
+    background-image: url(../pictures/top-banner.png);
     background-repeat: no-repeat;
 }
 .big-area{
-    background-image: url("../pictures/dream-bg.png");
+    background-image: url(../pictures/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
+}
+.experiences-item{
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 20px;
+    box-shadow: 10px 10px 40px black;
+    border-radius: 5%;
+}
+.experiences-area{
+    background-image: url(../pictures/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
 }
